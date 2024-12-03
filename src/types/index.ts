@@ -4,6 +4,12 @@ import { type z } from "zod";
 import type { Icons } from "@/components/icons";
 import { type userPrivateMetadataSchema } from "@/lib/validations/auth";
 
+export type ChildrenProps<T = React.ReactNode> = {
+  children: T;
+  className?: string;
+  style?: React.CSSProperties;
+};
+
 export interface NavItem {
   title: string;
   href?: string;
