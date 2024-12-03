@@ -13,7 +13,6 @@ export default function IndexPage() {
    * @see https://nextjs.org/docs/app/building-your-application/data-fetching/patterns#parallel-data-fetching
    */
   const githubStarsPromise = getGithubStars();
-  throw new Error("This is a test error");
   return (
     <React.Suspense fallback={<MainSkeleton />}>
       <Main githubStarsPromise={githubStarsPromise} />
