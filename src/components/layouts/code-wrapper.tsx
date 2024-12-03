@@ -1,3 +1,5 @@
+'use client';
+
 /** Originally from `t3-env-docs`
  * @link https://github.com/t3-oss/t3-env/blob/main/docs/src/components/mdx/code-block.tsx
  */
